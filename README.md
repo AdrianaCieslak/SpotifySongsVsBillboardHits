@@ -17,25 +17,25 @@ The ETL project focused on two datasets. The Billboard data provides the foundat
 
 #### Step 2: Transform
 There were multiple steps taken to clean and transform the data to prepare it for the load stage. The first stage was to remove all unnecessary data. The Billboard data covers 2015-2019 and the Spotify data covered 2010-2019. Since there was no Billboard data to correspond to the 2010-2014 Spotify data we removed it from the data set.
-Next we took out the columns we were not going to be using for the analysis. From the Spotify
+* Next we took out the columns we were not going to be using for the analysis. From the Spotify
 data, we kept the following columns:
    - title
    - artist
    - dnce (Danceability - The higher the value, the easier it is to dance to this song.)
    - live (Liveness - The higher the value, the more likely the song is a live recording)
    - dur (Length - The duration of the song.)
-We then updated the remaining columns to either match the Billboard tables, or be easier to
+* We then updated the remaining columns to either match the Billboard tables, or be easier to
 understand:
    - title > song
    - dnce > dance
    - live > live_rec
    - dur > duration
-From the Billboard list we kept the following columns:
+* From the Billboard list we kept the following columns:
    - Song
    - Artist
    - Weeks On #1
    - Weeks On Chart
-We then updated the title to remove spaces and match the case of the Spotify data:
+* We then updated the title to remove spaces and match the case of the Spotify data:
    - Song > song
    - Artist > artist
    - Weeks On #1 > weeks_1
