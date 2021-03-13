@@ -8,12 +8,12 @@ As a team completed an ETL project to create a dataset that allows for analysis 
 The ETL project focused on two datasets. The Billboard data provides the foundational data
 while the Spotify data provides better details on the unique attributes of the song.
 * Billboard Charts CSV
- - CSV file available on Kaggle
- - Contains the weekly updated HOT100 section in Billboards charts from 2015 to 2019
- - Available data: Song, Artist, Weeks On #1, Weeks On Chart, Peak Rank
+  - CSV file available on Kaggle
+  - Contains the weekly updated HOT100 section in Billboards charts from 2015 to 2019
+  - Available data: Song, Artist, Weeks On #1, Weeks On Chart, Peak Rank
 * Top Spotify songs from 2010-2019 - BY YEAR
- - CSV file available on Kaggle
- - Contains Spotify’s most popular songs in the world by year . The dataset includes 13 variables to analyze different song attributes
- - Available data: title, artist, top genre, song, bpm, nrgy, dnce, dB, live, val, dur, acous, spch, pop
+  - CSV file available on Kaggle
+  - Contains Spotify’s most popular songs in the world by year . The dataset includes 13 variables to analyze different song attributes
+  - Available data: title, artist, top genre, song, bpm, nrgy, dnce, dB, live, val, dur, acous, spch, pop
 
 #### Step 2: 
