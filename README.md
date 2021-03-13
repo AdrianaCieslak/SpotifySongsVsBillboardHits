@@ -31,6 +31,24 @@ understand:
    - live > live_rec
    - dur > duration
 * From the Billboard list we kept the following columns:
+
+#### Step 3: Load
+* The first step in loading the data was determining the schema within postgress:
+* To load the data into the newly created tables, we used the original Jupyter Notebook and
+sqlalchemy to create a connection to postgres:
+* Once the connection was verified and completed, our project team ran a series of tests to
+ensure the data was imported correctly and identify any potential issues. While running these
+tests, we discovered that any analysis using artist would require a match function in order to
+combine data from two different files without losing any of the information due to spelling errors
+or mismatches within the files themselves.
+
+#### Summary
+After finalizing the ETL process for our two data types, it is now possible to run various types of
+analysis to uncover trends behind the most popular music across Spotify and Billboard’s Hot
+100. Because the data includes various attributes, years, and rankings the data can be
+aggregated and sliced in many different ways. This will allow those using the dataset to answer
+a multitude of questions--without having to sort through unnecessary data thanks to the cleanup
+process in the extract stage.
    - Song
    - Artist
    - Weeks On #1
