@@ -47,14 +47,5 @@ After finalizing the ETL process for our two data types, it is now possible to r
 analysis to uncover trends behind the most popular music across Spotify and Billboard’s Hot
 100. Because the data includes various attributes, years, and rankings the data can be
 aggregated and sliced in many different ways. This will allow those using the dataset to answer
-a multitude of questions--without having to sort through unnecessary data thanks to the cleanup
-process in the extract stage.
-   - Song
-   - Artist
-   - Weeks On #1
-   - Weeks On Chart
-* We then updated the title to remove spaces and match the case of the Spotify data:
-   - Song > song
-   - Artist > artist
-   - Weeks On #1 > weeks_1
-   - Weeks On Chart > weeks_chart
+a multitude of questions without having to sort through unnecessary data thanks to the cleanup
+process in the extract stage.   
