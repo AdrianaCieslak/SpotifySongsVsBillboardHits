@@ -34,8 +34,10 @@ understand:
 
 #### Step 3: Load
 * The first step in loading the data was determining the schema within postgress:
+![](images/postgress.png)
 * To load the data into the newly created tables, we used the original Jupyter Notebook and
 sqlalchemy to create a connection to postgres:
+![](images/load.png)
 * Once the connection was verified and completed, our project team ran a series of tests to
 ensure the data was imported correctly and identify any potential issues. While running these
 tests, we discovered that any analysis using artist would require a match function in order to
